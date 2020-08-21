@@ -1,0 +1,1 @@
+$40002400 constant LCD_BASE

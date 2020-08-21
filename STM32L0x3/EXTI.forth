@@ -1,0 +1,8 @@
+$40010400 constant EXTI_BASE
+
+EXTI_BASE $00 + constant EXTI_IMR
+EXTI_BASE $04 + constant EXTI_EMR
+EXTI_BASE $08 + constant EXTI_RTSR
+EXTI_BASE $0C + constant EXTI_FTSR
+EXTI_BASE $10 + constant EXTI_SWIER
+EXTI_BASE $14 + constant EXTI_PR

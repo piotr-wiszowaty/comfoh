@@ -1,0 +1,12 @@
+$E000ED00 constant CPUID 
+$E000ED04 constant ICSR
+$E000ED08 constant VTOR
+$E000ED0C constant AIRCR
+$E000ED10 constant SCR
+$E000ED14 constant CCR
+$E000ED1C constant SHPR2
+$E000ED20 constant SHPR3
+
+$00000002 constant SLEEPONEXIT
+$00000004 constant SLEEPDEEP
+$00000010 constant SEVONPEND

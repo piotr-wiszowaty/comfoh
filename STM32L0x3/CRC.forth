@@ -1,0 +1,1 @@
+$40023000 constant CRC_BASE

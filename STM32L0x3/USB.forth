@@ -1,0 +1,2 @@
+$40005C00 constant USB_FS_BASE
+$40006000 constant USB_SRAM_BASE
