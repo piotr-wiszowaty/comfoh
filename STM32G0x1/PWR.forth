@@ -1,0 +1,28 @@
+$40007000 constant PWR_BASE
+PWR_BASE $00 + constant PWR_CR1
+PWR_BASE $04 + constant PWR_CR2
+PWR_BASE $08 + constant PWR_CR3
+PWR_BASE $0C + constant PWR_CR4
+PWR_BASE $10 + constant PWR_SR1
+PWR_BASE $14 + constant PWR_SR2
+PWR_BASE $18 + constant PWR_SCR
+PWR_BASE $20 + constant PWR_PUCRA
+PWR_BASE $24 + constant PWR_PDCRA
+PWR_BASE $28 + constant PWR_PUCRB
+PWR_BASE $2C + constant PWR_PDCRB
+PWR_BASE $30 + constant PWR_PUCRC
+PWR_BASE $34 + constant PWR_PDCRC
+PWR_BASE $38 + constant PWR_PUCRD
+PWR_BASE $3C + constant PWR_PDCRD
+PWR_BASE $48 + constant PWR_PUCRF
+PWR_BASE $4C + constant PWR_PDCRF
+
+$00000007 constant PWR_CR1_LPMS
+$00000008 constant PWR_CR1_FPD_STOP
+$00000010 constant PWR_CR1_FPD_LPRUN
+$00000020 constant PWR_CR1_FPD_LPSLP
+$00000100 constant PWR_CR1_DBP
+$00000600 constant PWR_CR1_VOS
+$00004000 constant PWR_CR1_LPR
+0 constant PWR_CR1_LPMS_POS
+9 constant PWR_CR1_VOS_POS

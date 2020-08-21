@@ -1,0 +1,1 @@
+$40012400 constant ADC_BASE

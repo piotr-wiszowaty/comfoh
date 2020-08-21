@@ -1,0 +1,1 @@
+$40007800 constant HDMI_CEC_BASE

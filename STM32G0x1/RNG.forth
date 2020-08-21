@@ -1,0 +1,1 @@
+$40025000 constant RNG_BASE

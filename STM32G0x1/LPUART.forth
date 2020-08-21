@@ -1,0 +1,1 @@
+$40008000 constant LPUART1_BASE
