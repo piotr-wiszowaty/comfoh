@@ -1,0 +1,3 @@
+$40005400 constant I2C1_BASE
+$40005800 constant I2C2_BASE
+

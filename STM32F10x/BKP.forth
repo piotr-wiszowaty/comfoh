@@ -1,0 +1,1 @@
+$40006C00 constant BKP_BASE

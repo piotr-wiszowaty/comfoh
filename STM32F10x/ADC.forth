@@ -1,0 +1,3 @@
+$40012400 constant ADC1_BASE
+$40012800 constant ADC2_BASE
+$40013C00 constant ADC3_BASE

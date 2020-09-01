@@ -1,0 +1,3 @@
+$40006400 constant CAN1_BASE
+$40006800 constant CAN2_BASE
+$40006000 constant CAN_RAM_BASE

@@ -1,0 +1,55 @@
+$50000000 constant USB_BASE
+$40006000 constant USB_RAM_BASE
+
+USB_BASE $00 + constant USB_EP0R
+USB_BASE $04 + constant USB_EP1R
+USB_BASE $08 + constant USB_EP2R
+USB_BASE $0C + constant USB_EP3R
+USB_BASE $10 + constant USB_EP4R
+USB_BASE $14 + constant USB_EP5R
+USB_BASE $18 + constant USB_EP6R
+USB_BASE $1C + constant USB_EP7R
+USB_BASE $40 + constant USB_CNTR
+USB_BASE $44 + constant USB_ISTR
+USB_BASE $48 + constant USB_FNR
+USB_BASE $4C + constant USB_DADD
+USB_BASE $50 + constant USB_BTABLE
+
+$0001 constant USB_CNTR_FRES
+$0002 constant USB_CNTR_PDWN
+$0004 constant USB_CNTR_LP_MODE
+$0008 constant USB_CNTR_FSUSP
+$0010 constant USB_CNTR_RESUME
+$0100 constant USB_CNTR_ESOFM
+$0200 constant USB_CNTR_SOFM
+$0400 constant USB_CNTR_RESETM
+$0800 constant USB_CNTR_SUSPM
+$1000 constant USB_CNTR_WKUPM
+$2000 constant USB_CNTR_ERRM
+$4000 constant USB_CNTR_PMAOVRM
+$8000 constant USB_CNTR_CTRM
+
+$000F constant USB_ISTR_EP_ID
+$0010 constant USB_ISTR_DIR
+$0100 constant USB_ISTR_ESOF
+$0200 constant USB_ISTR_SOF
+$0400 constant USB_ISTR_RESET
+$0800 constant USB_ISTR_SUSP
+$1000 constant USB_ISTR_WKUP
+$2000 constant USB_ISTR_ERR
+$4000 constant USB_ISTR_PMAOVR
+$8000 constant USB_ISTR_CTR
+0 constant USB_ISTR_EP_ID_POS
+
+$07FF constant USB_FNR_FN
+$1800 constant USB_FNR_LSOF
+$2000 constant USB_FNR_LCK
+$4000 constant USB_FNR_RXDM
+$8000 constant USB_FNR_RXDP
+0 constant USB_FNR_FN_POS
+11 constant USB_FNR_LSOF_POS
+
+$007F constant USB_DADDR_ADD
+$0080 constant USB_DADDR_EF
+0 constant USB_DADDR_ADD_POS
+

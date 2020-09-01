@@ -1,0 +1,1 @@
+$40007000 constant PWR_BASE

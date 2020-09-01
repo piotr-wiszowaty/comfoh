@@ -1,0 +1,2 @@
+$40020000 constant DMA1_BASE
+$40020400 constant DMA2_BASE
