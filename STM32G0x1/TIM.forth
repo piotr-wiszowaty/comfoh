@@ -126,6 +126,8 @@ $0002 constant TIM_SR_CC1IF
 $0020 constant TIM_SR_COMIF
 $0200 constant TIM_SR_CC1OF
 
+$0001 constant TIM_EGR_UG
+
 $0001 constant TIM_DIER_UIE
 $0002 constant TIM_DIER_CC1IE
 $0020 constant TIM_DIER_COMIE
