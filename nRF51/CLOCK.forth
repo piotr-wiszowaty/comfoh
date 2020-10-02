@@ -1,0 +1,28 @@
+$40000000 constant CLOCK
+
+\ Tasks
+CLOCK $000 + constant HFCLKSTART
+CLOCK $004 + constant HFCLKSTOP
+CLOCK $008 + constant LFCLKSTART
+CLOCK $00C + constant LFCLKSTOP
+CLOCK $010 + constant CAL
+CLOCK $014 + constant CTSTART
+CLOCK $018 + constant CTSTOP
+
+\ Events
+CLOCK $100 + constant HFCLKSTARTED
+CLOCK $104 + constant LFCLKSTARTED
+CLOCK $10C + constant DONE
+CLOCK $110 + constant CTTO
+
+\ Registers
+CLOCK $304 + constant CLOCK.INTENSET
+CLOCK $308 + constant CLOCK.INTENCLR
+CLOCK $408 + constant HFCLKRUN
+CLOCK $40C + constant HFCLKSTAT
+CLOCK $414 + constant LFCLKRUN
+CLOCK $418 + constant LFCLKSTAT
+CLOCK $41C + constant LFCLKSRCCOPY
+CLOCK $518 + constant LFCLKSRC
+CLOCK $538 + constant CTIV
+CLOCK $550 + constant XTALFREQ
