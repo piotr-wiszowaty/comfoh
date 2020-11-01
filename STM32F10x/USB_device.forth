@@ -12,7 +12,7 @@ USB_BASE $1C + constant USB_EP7R
 USB_BASE $40 + constant USB_CNTR
 USB_BASE $44 + constant USB_ISTR
 USB_BASE $48 + constant USB_FNR
-USB_BASE $4C + constant USB_DADD
+USB_BASE $4C + constant USB_DADDR
 USB_BASE $50 + constant USB_BTABLE
 
 $0001 constant USB_CNTR_FRES
