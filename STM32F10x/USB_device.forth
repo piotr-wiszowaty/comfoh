@@ -1,4 +1,4 @@
-$50000000 constant USB_BASE
+$40005C00 constant USB_BASE
 $40006000 constant USB_RAM_BASE
 
 USB_BASE $00 + constant USB_EP0R
